@@ -95,7 +95,7 @@
 				TweenMax.to(this.DOM.imgWrap, this.config.animation.duration, imgOpts);
 				// Moving & fading the title and number.
 				titleOpts.delay = 0.2;
-				TweenMax.to(this.DOM.title, this.config.animation.duration*2, titleOpts);
+				TweenMax.to(this.DOM.title, this.config.animation.duration*1.5, titleOpts);
 				TweenMax.to(this.DOM.number, this.config.animation.duration, numberOpts);
             });
 		}

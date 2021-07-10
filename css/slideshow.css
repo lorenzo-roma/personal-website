@@ -114,7 +114,7 @@ button{
 	pointer-events: none;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
 	text-transform: lowercase;
 }
 
@@ -148,7 +148,6 @@ button{
 
 .slidenav__preview {
 	pointer-events: auto;
-	color: var(--color-nav);
 	position: absolute;
 	bottom: 0;
 	transform: translateX(-50%);

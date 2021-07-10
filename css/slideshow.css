@@ -119,26 +119,24 @@ button{
 }
 
 .slidenav__item {
-	pointer-events: auto;
+	pointer-events:auto;
 	border: 0;
 	background: none;
-	padding: 1rem;
-	margin: 0.85rem;
 	text-transform: inherit;
 	position: relative;
 	line-height: 1;
-	color: var(--color-nav);
+	width:3em;
+	height:3em;
+	background-image: url("../img/navigation-button.png");
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.slidenav__item::before,
-.slidenav__item::after {
-	content: '';
-	position: absolute;
-	width: 3rem;
-	height: 1px;
-	background: currentColor;
-	top: 50%;
+.slidenav__item:active:hover{
+	background-image: url("../img/navigation-button-pressed.png");
 }
+
 
 .slidenav__item::before {
 	right: 100%;
@@ -146,18 +144,6 @@ button{
 
 .slidenav__item::after {
 	left: 100%;
-}
-
-.slidenav__item:hover {
-	color: var(--color-link-hover);
-}
-
-.slidenav__item--prev {
-	transform: rotate(-90deg) translateY(-50%);
-}
-
-.slidenav__item--next {
-	transform: rotate(90deg) translateY(-25%);
 }
 
 .slidenav__preview {
@@ -173,13 +159,6 @@ button{
 	transition: 0.3s transform;
 }
 
-.slidenav__preview:hover {
-	color: var(--color-link-hover);
-}
-
-.slidenav__preview .icon {
-	pointer-events: none;
-}
 
 .slidenav__preview--open {
 	transform: translateX(-50%) rotate(180deg);

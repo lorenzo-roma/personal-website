@@ -3,26 +3,30 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    width: 100%;
+    margin: 2%;
+    width: 96%;
   }
   
   /* The progress container (grey background) */
   .progress-container {
-    width: 96%;
+    width: 100%;
     height: 8vw;
-    margin: 2%;
-    background-image: url("../img/progress-bar-empty.png");
-    background-size: auto 100%;
-    background-position: left;
-    background-repeat: no-repeat;
+  }
+
+  .fill{
+    height: 100%;
+    width: 100%;
   }
   
   /* The progress bar (scroll indicator) */
   .progress-bar {
-    height: 100%;
-    background-image: url("../img/progress-bar.png");
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;    
-    width: 0%;
+      position: absolute;
+      top:0;
+      left:0;
+    -webkit-mask: linear-gradient(#000, #000);
+    mask-image: linear-gradient(transparent, transparent);
+    -webkit-mask-size: 0% 100%;
+    mask-size: 0% 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
   }

@@ -6,5 +6,7 @@ function myFunction() {
   var winScroll = scrollable.scrollTop;
   var height = scrollable.scrollHeight - scrollable.clientHeight;
   var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
+  document.getElementById("myBar").style['mask-size'] = scrolled + "% 100%";
+  document.getElementById("myBar").style['-webkit-mask-size'] = scrolled + "% 100%";
+
 }

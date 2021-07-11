@@ -3,9 +3,9 @@ const scrollable = document.getElementsByClassName("wrapper")[0];
 scrollable.onscroll = function() {myFunction()};
 
 function myFunction() {
-  var winScroll = scrollable.scrollTop;
-  var height = scrollable.scrollHeight - scrollable.clientHeight;
-  var scrolled = (winScroll / height) * 100;
+  const winScroll = scrollable.scrollTop;
+  const height = scrollable.scrollHeight - scrollable.clientHeight;
+  const scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style['mask-size'] = scrolled + "% 100%";
   document.getElementById("myBar").style['-webkit-mask-size'] = scrolled + "% 100%";
 

@@ -20,6 +20,7 @@
   
   /* The progress bar (scroll indicator) */
   .progress-bar {
+      transition: all 0.5s;
       position: absolute;
       top:0;
       left:0;

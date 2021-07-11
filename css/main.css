@@ -5,7 +5,9 @@
     font-family: Simvoni; src: url("../font/bit-light.otf");
 }
 
-
+html.sr section {
+    visibility: hidden;
+}
 
 body {
     background-color: #000000;

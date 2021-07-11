@@ -9,8 +9,10 @@
     <link rel="preload" as="image" href="img/toggle-button-pressed.png">
     <link rel="preload" as="image" href="img/toggle-button-active.png">
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+    <link rel="stylesheet" type="text/css" href="css/progress.css" />
+
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script>
         ScrollReveal();
@@ -20,6 +22,11 @@
     </title>
 </head>
 <body>
+    <div class="header">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
+      </div>
     <div class="wrapper">
         <section id="first">
             <div class="section-content-wrapper">
@@ -134,5 +141,6 @@
     <script src="js/TweenMax.min.js"></script>
     <script src="js/demo.js"></script>
     <script src="js/scroll-reveal.js"></script>
+    <script src="js/progress.js"></script>
 </body>
 </html>

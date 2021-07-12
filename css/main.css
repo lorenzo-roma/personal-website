@@ -151,3 +151,25 @@ section{
     width: 300px;
     background-color: aqua;
 }
+
+#check-out-more{
+    margin-top: 20em;
+}
+
+#mail{
+    width:60vw;
+}
+
+.row{
+    margin:1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-logo{
+    max-width: 50%;
+    height: auto;
+}

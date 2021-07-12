@@ -11,7 +11,7 @@ function myFunction() {
   let hasToBeVisible = (scrolled > 10) ? 1 : 0;
   progressBar.style.opacity = hasToBeVisible;
   emptyProgressBar.style.opacity = hasToBeVisible;
-  if(Math.floor(scrolled)%10){
+  if(Math.floor(scrolled+2)%10==0){
     progressBar.style['mask-size'] = scrolled + "% 100%";
     progressBar.style['-webkit-mask-size'] = scrolled + "% 100%";
   }

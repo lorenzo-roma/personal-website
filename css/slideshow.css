@@ -1,12 +1,3 @@
-body{
-	--color-text: #fff;
-	--color-bg: #00000000;
-	--color-link: #fff;
-	--color-link-hover: #ffeb3b;
-	--color-reveal: var(--color-bg);
-	--color-title: #fff;
-	--color-nav: #fff;
-}
 
 button{
 	font-size: 2.2rem;
@@ -24,7 +15,7 @@ button{
 
 .slide {
 	width: 100%;
-	height: 65vh;
+	height:50vh;
 	top: 0;
 	position: absolute;
 	display: grid;
@@ -61,15 +52,6 @@ button{
 	pointer-events: none;
 }
 
-.slide__img::after {
-	content: '';
-	background: rgba(22, 63, 191, 0.62);
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
 
 .slide__img-reveal {
 	position: absolute;
@@ -83,7 +65,7 @@ button{
 }
 
 .slide__number {
-	font-size: 4rem;
+	font-size: 1.5rem;
 	position: absolute;
 	top: 5.25rem;
 	opacity: 0;
@@ -92,7 +74,7 @@ button{
 .slide__title {
 	margin: 0;
 	grid-area: 1 / 1 / 1 / 1;
-	font-size: 10vw;
+	font-size: 2rem;
 	color: var(--color-title);
 	position: relative;
 	margin-bottom: 1.25rem;
@@ -125,8 +107,8 @@ button{
 	text-transform: inherit;
 	position: relative;
 	line-height: 1;
-	width:3em;
-	height:3em;
+	width:2em;
+	height:2em;
 	background-image: url("../img/navigation-button.png");
 	background-size: contain;
     background-position: center;
@@ -193,16 +175,6 @@ button{
 	backface-visibility: hidden;
 }
 
-.preview__img::after {
-	content: '';
-	background: rgba(22, 63, 191, 0.62);
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
 .preview__img-reveal {
 	background: var(--color-reveal);
 }
@@ -229,8 +201,8 @@ button{
 }
 
 #toggle-button-icon{
-	width:3em;
-	height:3em;
+	width:1.75em;
+	height:1.75em;
 	background-image: url("../img/toggle-button.png");
 	background-size: cover;
     background-position: center;

@@ -1,0 +1,55 @@
+
+@media only screen and (min-width: 768px) {
+    .section-content-wrapper {
+        padding: 5% 20%;
+    }
+    #name {
+        font-size: 4rem;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+
+    body{
+        font-size: 1.5rem;
+    }
+
+    .logo{
+        display: block;
+        width: 50%;
+        margin: 0.6em auto;
+    }
+
+    .fill{
+        width:40%;
+        height: 40%;
+    }
+
+
+    #check-out-more {
+        margin-top: 10em;
+    }
+
+    #mail {
+        width: 40vw;
+    }
+
+    .slidenav__item {
+        width: 2em;
+        height: 2em;
+    }
+
+    #toggle-button-icon {
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    .slide__title {
+        font-size: 3rem;
+    }
+
+    .slide__number {
+        font-size: 2rem;
+        top: 1em;
+    }
+}

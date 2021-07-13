@@ -1,0 +1,19 @@
+
+@media only screen and (min-width: 1000px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .slide__title {
+        font-size: 3rem;
+    }
+
+    .slide__number {
+        font-size: 2rem;
+        top: 1em;
+    }
+}

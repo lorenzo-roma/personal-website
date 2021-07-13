@@ -4,6 +4,18 @@
         font-size: 1rem;
     }
 
+    .wrapper{
+        scroll-snap-type: none;
+    }
+
+    #presentation-desc {
+        width: 60%;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
     .section-title {
         font-size: 1.5rem;
     }
@@ -15,5 +27,32 @@
     .slide__number {
         font-size: 2rem;
         top: 1em;
+    }
+
+    .column{
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .fill {
+        width: 20%;
+        height: 15%;
+    }
+
+    #contact::before {
+        background-size: 60% auto;
+    }
+
+    #mail {
+        width: 30%;
+    }
+
+    .contact-logo {
+        max-width: 30%;
+        height: auto;
+    }
+
+    .row{
+        margin: auto 25%;
     }
 }

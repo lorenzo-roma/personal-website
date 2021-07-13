@@ -45,7 +45,8 @@ button{
 	height: 100%;
 	left: 0;
 	top: 0;
-	background-size: cover;
+	background-size: contain;
+    background-repeat: no-repeat;
 	background-position: 50% 50%;
 	position: absolute;
 	backface-visibility: hidden;
@@ -171,7 +172,8 @@ button{
 }
 
 .preview__img {
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	backface-visibility: hidden;
 }

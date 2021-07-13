@@ -178,3 +178,7 @@ section{
     height: auto;
 }
 
+.solid{
+    text-shadow: 0 0 6px #000, 0 1px #535b5e, -1px 0 #88969b, -1px 2px #535b5e, -2px 1px #88969b, -2px 3px #535b5e, -3px 2px #88969b, -3px 4px #535b5e, -4px 3px #88969b, -4px 5px #535b5e, -5px 4px #88969b, -5px 6px #535b5e, -6px 5px #88969b, -6px 7px #535b5e;
+}
+

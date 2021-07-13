@@ -31,7 +31,7 @@ button{
 
 .slide__img-wrap {
 	grid-area: 1 / 1 / 1 / 1;
-	width: 100%;
+	width: 75%;
 	height: calc(100vh - 13rem);
 	max-height: 100%;
 	overflow: hidden;
@@ -70,6 +70,7 @@ button{
 	position: absolute;
 	top: 5.25rem;
 	opacity: 0;
+	
 }
 
 .slide__title {

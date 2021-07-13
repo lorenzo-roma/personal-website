@@ -72,6 +72,7 @@ button{
 }
 
 .slide__title {
+	text-align: center;
 	margin: 0;
 	grid-area: 1 / 1 / 1 / 1;
 	font-size: 2rem;
@@ -189,7 +190,6 @@ button{
 }
 
 .preview__content {
-	column-count: 2;
 	position: relative;
 	text-align: justify;
 	opacity: 0;

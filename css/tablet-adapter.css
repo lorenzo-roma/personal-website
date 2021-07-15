@@ -27,7 +27,7 @@
 
 
     #check-out-more {
-        margin-top: 10em;
+        margin-top: 1em;
     }
 
     #mail {
@@ -51,5 +51,11 @@
     .slide__number {
         font-size: 2rem;
         top: 1em;
+    }
+
+    .slidenav{
+        transform: translate(-50%);
+        width: 70%;
+        left: 50%;
     }
 }

@@ -52,4 +52,10 @@
         font-size: 2rem;
         top: 1em;
     }
+
+    .slidenav{
+        transform: translate(-50%);
+        width: 70%;
+        left: 50%;
+    }
 }

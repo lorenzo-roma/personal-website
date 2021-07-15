@@ -26,7 +26,8 @@
 				imgWrap: this.DOM.el.querySelector('.preview__img-wrap'),
 				revealer: this.DOM.el.querySelector('.preview__img-wrap > .preview__img-reveal'),
 				title: this.DOM.el.querySelector('.preview__title'),
-				content: this.DOM.el.querySelector('.preview__content')
+				content: this.DOM.el.querySelector('.preview__content'),
+				clickable: this.DOM.el.querySelectorAll('.clickable')
 			};
 
 			// Some config values.
@@ -134,6 +135,18 @@
 					y: action === 'hide' ? '200%' : '0%',
 					opacity: action === 'hide' ? 0 : 1
 				});
+
+				this.toggleClickable(action == 'show');
+			});
+		}
+
+		toggleClickable(enable){
+			this.DOM.preview.clickable.forEach((el)=>{
+				if(enable){
+					el.classList.add("click-enabled");
+				} else {
+					el.classList.remove("click-enabled");
+				}
 			});
 		}
     }

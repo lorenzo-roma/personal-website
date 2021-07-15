@@ -172,7 +172,7 @@ button{
 }
 
 .preview__img {
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	backface-visibility: hidden;
@@ -218,6 +218,10 @@ button{
 
 #toggle-button-icon.slidenav__preview--open {
 	background-image: url("../img/toggle-button-active.png");
+}
+
+.click-enabled{
+	pointer-events: all;
 }
 
 

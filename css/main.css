@@ -187,3 +187,31 @@ section{
     margin: 2em auto;
     text-align: center;
 }
+
+.text-center{
+    text-align: center;
+}
+
+.demo-link{
+    transition: all 1s;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 6px #000, 0 1px #A51717, -1px 0 #FF2B2B, -1px 2px #A51717, -2px 1px #FF2B2B, -2px 3px #A51717, -3px 2px #FF2B2B, -3px 4px #A51717, -4px 3px #FF2B2B, -4px 5px #A51717, -5px 4px #FF2B2B, -5px 6px #A51717, -6px 5px #FF2B2B, -6px 7px #A51717;
+}
+
+.demo-link:hover{
+    color: #FF2B2B;
+    text-shadow: none;
+}
+
+.code-link{
+    transition: all 1s;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 6px #000, 0 1px #601D9B, -1px 0 #A749FF, -1px 2px #601D9B, -2px 1px #A749FF, -2px 3px #601D9B, -3px 2px #A749FF, -3px 4px #601D9B, -4px 3px #A749FF, -4px 5px #601D9B, -5px 4px #A749FF, -5px 6px #601D9B, -6px 5px #A749FF, -6px 7px #601D9B;
+}
+
+.code-link:hover{
+    color: #A749FF;
+    text-shadow: none;
+}
